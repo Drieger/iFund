@@ -1,0 +1,8 @@
+<body class="hold-transition skin-blue sidebar-mini" [class.sidebar-collapse]="isMenuCollapsed">
+    <nav-bar
+        [title] = "'iFund Manager'"
+        [title-mini] = "'iFund'"
+        (menuToggleEvent) = "onMenuToggle()"
+    ></nav-bar>
+    <side-bar></side-bar>
+</body>

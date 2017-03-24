@@ -1,0 +1,22 @@
+{
+  "name": "client-app",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Daniel Beckert <drbeckert@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AdminLTE": "admin-lte#^2.3.11",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
