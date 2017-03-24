@@ -12,10 +12,10 @@ export class AppComponent implements OnInit {
   ngOnInit() {
   }
 
-  isMenuCollapsed:boolean = false;
+  isSidebarCollapsed:boolean = false;
 
-  onMenuToggle() {
-    this.isMenuCollapsed = !this.isMenuCollapsed;
+  onSidebarToggle() {
+    this.isSidebarCollapsed = !this.isSidebarCollapsed;
   }
 
 }

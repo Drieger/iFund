@@ -16,5 +16,5 @@ export class NavBarComponent implements OnInit {
   @Input('title-mini') titleMini:string = 'iFund';
 
   // Event indicating a menu change
-  @Output() menuToggleEvent = new EventEmitter();
+  @Output() sidebarToggleEvent = new EventEmitter();
 }
